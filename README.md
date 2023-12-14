@@ -27,20 +27,31 @@ The cat command displays the content of a file.
 
 
 for testing the commands
-mkdir new_folder
-cd new_folder
-mkdir folder1
-mkdir folder2
-mkdir folder3
-cd .. changes to new_folder
-ls
+1)mkdir new_folder
+
+2)cd new_folder
+
+3)mkdir folder1
+4)mkdir folder2
+5)mkdir folder3
+
+6)cd .. changes to new_folder
+
+7)ls : output
 folder1 new_folder
 folder2 new_folder
 folder3 new_folder
-touch new_file.txt
-echo "Hello, World!" > /documents/new_file.txt
-cat document.txt
-mv /documents/new_file.txt /backup/new_file_backup.txt
-cp /documents/important_document.txt /backup/documents_backup.txt
-rm /documents/unwanted_file.txt
-exit
+
+8)touch new_file.txt
+
+9)echo "Hello, World!" > /documents/new_file.txt
+
+10)cat document.txt
+
+11)mv /documents/new_file.txt /backup/new_file_backup.txt
+
+12)cp /documents/important_document.txt /backup/documents_backup.txt
+
+13)rm /documents/unwanted_file.txt
+
+14)exit
