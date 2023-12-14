@@ -15,13 +15,17 @@ Data Structures Used:
 Represented using the TreeNode class.
 Each node has a name, type, parent, children, and content.
 Allows efficient representation of the hierarchical structure of directories and files.
+
+
 Design Decisions:
-2)Path Handling:
+1)Path Handling:
 The cd command supports navigating to parent directories and specified directories.
 The ls command lists the contents of the current directory or a specified directory.
-3)File Content:
+2)File Content:
 Files store content using the content attribute.
 The cat command displays the content of a file.
+
+
 for testing the commands
 mkdir new_folder
 cd new_folder
